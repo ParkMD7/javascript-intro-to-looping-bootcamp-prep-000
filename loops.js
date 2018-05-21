@@ -20,10 +20,7 @@ function doWhileLoop(array) {
   do {
     array.pop()
   } 
-  while (array.length > 0 && maybeTrue() ) {
-    function maybeTrue() {
-  return Math.random() >= 1
-}
+  while (array.length > 0 && maybeTrue() ) 
   }
   return array
 }
